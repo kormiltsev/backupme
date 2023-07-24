@@ -7,6 +7,9 @@ import (
 	"os"
 	"path/filepath"
 	"strings"
+
+	"github.com/kormiltsev/backupme/compressers"
+	"github.com/kormiltsev/backupme/encoders"
 )
 
 func main() {
